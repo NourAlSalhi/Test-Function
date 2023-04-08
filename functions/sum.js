@@ -1,5 +1,5 @@
-const sum = (num)=>{
-    return num
+const sum = (...numbers) => {
+    return numbers.reduce((acc,cur)=>acc+cur,0)
 }
 
 module.exports = sum
