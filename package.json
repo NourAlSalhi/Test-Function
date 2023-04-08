@@ -12,6 +12,7 @@
     "jest": "^29.5.0"
   },
   "jest": {
+    "//":"add coverage report option",
     "collectCoverage": true,
     "coverageReporters": [
       "html"
